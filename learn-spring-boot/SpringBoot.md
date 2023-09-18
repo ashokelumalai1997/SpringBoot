@@ -95,3 +95,35 @@ Lot of time - few days to setup. Maintenances work as well!
 - Easy to test the changes locally
 - Any change in pom.xml needs manual restart. For most other files like properties, it works automatically
 
+# Prod Ready
+
+## Managing App. Config using Profiles
+- Applications have diff env: Dev, QA, Stage, Prod...
+- Different environments need different configuration:
+  - Different Databases
+  - Different webservices
+- How can you provide diff config for diff environments
+  - Profiles :  Environment specific configuration
+- How can you define externalized configuration for your application
+
+
+- Create different profiles for each:
+
+**Dev**
+**QA**
+**Stage**
+**Prod**
+
+
+- Say we want to log trace in dev and info in prod
+- create application-dev.properties, *-prod.properties etc and set "spring.profile.active=<env>" in application.properties
+
+
+Order - includes all below
+
+trace 
+debug
+info
+warning
+error
+
