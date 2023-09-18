@@ -46,3 +46,16 @@ Lot of time - few days to setup. Maintenances work as well!
 ## How SB makes them easy?
 1. Create a SB project
 2. Build a simple REST API using SB
+
+## Most important goal of SB
+1. Help you Build Production ready apps Quickly
+   - Build Quickly
+     - Spring Initializr
+     - Spring Boot Starter Projects
+     - Spring Boot Auto Configuration
+     - Spring Boot DevTools
+   - Be Prod Ready
+     - Logging
+     - Different configurations for Different Environments
+       - Profiles, ConfigurationProperties
+     - Monitoring(Spring Boot Actuator)
