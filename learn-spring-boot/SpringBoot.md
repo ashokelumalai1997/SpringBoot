@@ -59,3 +59,17 @@ Lot of time - few days to setup. Maintenances work as well!
      - Different configurations for Different Environments
        - Profiles, ConfigurationProperties
      - Monitoring(Spring Boot Actuator)
+
+## Spring Boot Starter Projects
+- I need a lot of frameworks to build application features:
+  - Build a REST API: I need Spring, Spring MVC, Tomcat, JSON conversion
+  - Write unit tests: I need spring test, junit, mockito...
+- How can I group them and make it easy to build apps
+  - Starters: **Convenient dependency descriptors** for diff. features
+- Spring Boot provides variety of starter projects:
+  - Web Apps & REST API - Spring Boot Starter web(spring-webmvc, spring-web, springboot-starter-tomcat, spring-boot-starter-json)
+  - Unit tests -  Spring Boot Starter Test
+  - Talk to database using JPA - Spring Boot Starter Data JPA
+  - Talk to database using JDBC - Spring Boot Starter JDBC
+  - Secure your web app or REST API -  Spring Boot Starter Security
+
