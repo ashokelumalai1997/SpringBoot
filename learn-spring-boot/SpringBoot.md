@@ -128,3 +128,21 @@ info
 warning
 error
 
+## Simplify Deployment with Spring Boot Embedded Servers
+
+- How do you deploy your application
+  - Step 1 : Install java
+  - Step 2 : Install Web/Application Server
+  - Step 3: Deploy the WAR(Web ARchive) 
+    - This is the OLD WAR approach
+    - Complex to setup
+
+- Embedded Server - Simpler alternative
+  - Step 1: Install Java
+  - Step 2: Run JAR file
+  - Make JAR not WAR (Credit: JosH Long!)
+  - Embedded Server Examples:
+    - spring-boot-starter-tomcat
+    - spring-boot-starter-jetty
+    - spring-boot-starter-undertow
+
