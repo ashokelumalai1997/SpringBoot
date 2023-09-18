@@ -146,3 +146,13 @@ error
     - spring-boot-starter-jetty
     - spring-boot-starter-undertow
 
+## Monitor Applications using Spring Boot Actuator
+- Monitor and manage your application in your production
+- Provides a number of endpoints
+  - beans - Complete list of Spring beans in your app
+  - health - Application health information
+  - metrics - Application metrics
+  - mappings - Details around request mappings
+  - etc
+- "management.endpoints.web.exposure.include=*" in properties
+- 
