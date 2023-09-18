@@ -117,6 +117,7 @@ Lot of time - few days to setup. Maintenances work as well!
 
 - Say we want to log trace in dev and info in prod
 - create application-dev.properties, *-prod.properties etc and set "spring.profile.active=<env>" in application.properties
+- If any field in properties is found in env.properties, it will be replaced
 
 
 Order - includes all below
