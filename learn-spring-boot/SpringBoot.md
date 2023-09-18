@@ -93,4 +93,5 @@ Lot of time - few days to setup. Maintenances work as well!
 - Increase Developer Productivity
 - Why do you need to restart the server manually for every code change?
 - Easy to test the changes locally
+- Any change in pom.xml needs manual restart. For most other files like properties, it works automatically
 
