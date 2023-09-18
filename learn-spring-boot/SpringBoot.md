@@ -155,4 +155,22 @@ error
   - mappings - Details around request mappings
   - etc
 - "management.endpoints.web.exposure.include=*" in properties
-- 
+
+## Understanding Spring Boot vs Spring MVC vs Spring
+- Spring Boot vs Spring MVC vs Spring: what's in it
+  - Spring Framework : Dependency Injection
+    - @Component, @Autowired, Component Scan etc..
+    - Just Dependency Injection is NOT sufficient (you need other frameworks to build apps)
+      - Spring Modules and Spring Projects: Extend Spring Eco System
+        - Provide good integration with other frameworks (Hibernate/JPA, JUnit & Unit Testing)
+  - Spring MVC (Spring Module) : Simplify building web apps and REST API
+    - Building web aps with Struts was very complex
+    - @Controller, @RestController, @RequestMapping("/courses")
+  - Spring Boot (Spring Project) : Build Prod ready apps quickly
+    - Starter projects - Make it easy to build variety of applications
+    - Auto configuration - Eliminate configuration of setup Spring, Spring MVC and other frameworks!
+    - Enable non functional requirements (NFRs):
+      - Actuator: Enables Advanced Monitoring of Applciations
+      - Embedded servers : No need for separate application servers
+      - Logging and Error handling
+      - Profiles and ConfigurationProperties
