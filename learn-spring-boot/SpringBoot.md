@@ -73,3 +73,24 @@ Lot of time - few days to setup. Maintenances work as well!
   - Talk to database using JDBC - Spring Boot Starter JDBC
   - Secure your web app or REST API -  Spring Boot Starter Security
 
+## Spring Boot Auto Configuration
+- I need lot of configuration to build Spring app:
+  - Component Scan, DispatchServlet, Data Sources, JSON Conversion
+- How can I simplify this?
+  - Auto Configuration: Automated configuration for your app
+    - Decided based on
+      - Which framework are in the class path
+      - What is the existing config(Annotations etc)?
+- All auto config related to are defined in Spring Boot Auto Confgire.jar
+  - Can customize using application.properties under resources folder
+- Example: Spring Boot Starter Web
+  - Dispatcher Servlet (DispatcherServletAutoConfiguration)
+  - Embedded Servlet Container - Tomcat is the default
+  - Default Error Pages
+  - Bean <-> JSON (Jackson)
+
+## Build faster with Spring Boot DevTools
+- Increase Developer Productivity
+- Why do you need to restart the server manually for every code change?
+- Easy to test the changes locally
+
